@@ -38,7 +38,7 @@
                         <a class="nav-link" href="#sessions">Sessions</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -143,13 +143,44 @@
     <section id="sessions" class="sessions">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-12" style="padding: 10em 30em 0 30em;">
+                <div class="col-md-12" style="padding: 10em 30em 10em 30em;">
                     <!-- Calendly inline widget begin -->
                     <div class="calendly-inline-widget" data-url="https://calendly.com/chavalk/30min"
                         style="min-width:320px;height:900px; background-color: #FAF0E6;"></div>
                     <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"
                         async></script>
                     <!-- Calendly inline widget end -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="contact">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3"></div>
+                <div class="col-12 col-lg-6">
+                    <div class="w-100" style="padding: 10rem;">
+                        <h4 class="display-3 mb-5 text-center" style="color: rgba(0, 0, 0, .55);">Send Me A Message</h4>
+                        <form action="https://formspree.io/f/mnqllroy" method="POST" class="row">
+                            <div class="col-lg-6 col-md-6 mb-3">
+                                <input type="text" placeholder="First Name" name="Name" class="form-control form-control-lg">
+                            </div>
+                            <div class="col-lg-6 col-md-6 mb-3">
+                                <input type="text" placeholder="Last Name" name="Last Name" class="form-control form-control-lg">
+                            </div>
+                            <div class="col-lg-12 mb-3">
+                                <input type="text" placeholder="Email Address" name="Email" class="form-control form-control-lg">
+                            </div>
+                            <div class="col-lg-12 mb-3">
+                                <textarea name="Message" placeholder="Message" cols="30" rows="10" class="form-control form-control-lg"></textarea>
+                            </div>
+                            <div class="text-center d-grid mt-1">
+                                <button type="submit" class="btn btn-light fs-4 rounded-pill pt-3 pb-3" style="color: white; background-color: rgba(0, 0, 0, .55); border: none;">Submit</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
