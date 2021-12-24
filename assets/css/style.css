@@ -2,6 +2,7 @@ body {
     background-color: #FAF0E6;
 }
 
+/* Home section */
 .home-image {
     background-image: url(../../images/banner.jpg);
     background-color: #FAF0E6;
@@ -12,8 +13,9 @@ body {
     position: relative;
 }
 
+/* About section */
 .profile-pic {
-    padding: 10em 8em 10em 8em;
+    padding: 10em 8em;
 }
 
 .heading-about {
@@ -24,6 +26,7 @@ body {
     padding: 1em 25em 0 0;
 }
 
+/* Services section */
 .heading-services {
     padding: 2.5em 4em 0 2em;
 }
@@ -41,25 +44,64 @@ body {
     padding: 0.5em 1em;
 }
 
+.drive-pic {
+    margin-top: 12em;
+}
+
+.plane-pic {
+    margin: 9em 0 0 8em;
+}
+
+.heading-second-service {
+    padding: 1em 6em 0 0;
+}
+
+.paragraph-second-service {
+    padding: 1em 18em 0 0;
+}
+
+.list-second-service {
+    padding: 0 18em 0 3em;
+}
+
+.btn-second-service {
+    margin: 1em 0 2em 0;
+    padding: 0.5em 1em;
+}
+
+/* Sessions section */
+.calendar {
+    padding: 10em 30em 10em 30em;
+}
+
+/* Contact section */
+.form {
+    padding: 10rem;
+}
+
+/* Mid-size media query */
 @media screen and (max-width: 992px) {
+    /* Nav bar */
     .nav-btn {
         display: none;
     }
 
+    /* About section */
     .profile-pic {
-        padding: 0 0 0 0;
+        padding: 4em 0 3em 0;
     }
 
     .heading-about {
-        padding: 0 0 0 0;
+        padding: 0 0 0.5em 0;
     }
     
     .paragraph-about {
-        padding: 0 0 0 0;
+        padding: 0 0 5em 0;
     }
 
+    /* Services section */
     .heading-services {
-        padding: 0 0 0 0;
+        padding: 0 0 0.5em 0;
     }
     
     .paragraph-services {
@@ -67,14 +109,49 @@ body {
     }
 
     .ul-first-service {
-        padding-left: 0;
+        padding-left: 2.5em;
     }
 
     .btn-first-service {
-        margin: 0 0 0 0;
+        margin: 0 0 2em 0;
+    }
+
+    .drive-pic {
+        margin-top: 0;
+    }
+
+    .plane-pic {
+        margin: 0 0 3em 0;
+    }
+
+    .heading-second-service {
+        padding: 0 0 1em 0;
+    }
+    
+    .paragraph-second-service {
+        padding: 0 0 0 0;
+    }
+
+    .list-second-service {
+        padding: 0 0 0 2.5em;
+    }
+
+    .btn-second-service {
+        margin: 0 0 7em 0;
+    }
+
+     /* Services section */
+    .calendar {
+        padding: 0 1em 7em 1em;
+    }
+
+    /* Contact section */
+    .form {
+        padding: 0 0 5em 0;
     }
 }
 
+/* Small media query */
 @media screen and (max-width: 600px) {
     
 }
