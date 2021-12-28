@@ -14,6 +14,10 @@ body {
 }
 
 /* About section */
+.about {
+    margin-bottom: 9em;
+}
+
 .profile-pic {
     padding: 10em 0 0 0;
 }
@@ -27,6 +31,10 @@ body {
 }
 
 /* Services section */
+.services {
+    margin-bottom: 9em;
+}
+
 .heading-services {
     padding: 2.5em 3em 0 2em;
 }
@@ -42,6 +50,7 @@ body {
 .btn-first-service {
     margin: 1em 0 2em 5.3em;
     padding: 0.5em 1em;
+    
 }
 
 .drive-pic {
@@ -87,33 +96,43 @@ body {
     }
 
     /* About section */
+    .about {
+        margin-bottom: 1em;
+    }
     .profile-pic {
         padding: 4em 0 3em 0;
     }
 
     .heading-about {
         padding: 0 0 0.5em 0;
+        text-align: center;
     }
     
     .paragraph-about {
-        padding: 0 0 5em 0;
+        padding: 0 1.1em 1em 1.5em;
+        
     }
 
     /* Services section */
+    .services {
+        margin-bottom: 1em;
+    }
+
     .heading-services {
-        padding: 0 0 0.5em 0;
+        padding: 1em 0 0.5em 0;
+        text-align: center;
     }
     
     .paragraph-services {
-        padding: 0 0 0 0;
+        padding: 0 1.1em 0 1.5em;
     }
 
     .ul-first-service {
-        padding-left: 2.5em;
+        padding: 0 1.5em 0 3.5em;
     }
 
     .btn-first-service {
-        margin: 0 0 2em 0;
+        margin: 0 0 2em 1.5em;
     }
 
     .drive-pic {
@@ -126,28 +145,33 @@ body {
 
     .heading-second-service {
         padding: 0 0 1em 0;
+        text-align: center;
     }
     
     .paragraph-second-service {
-        padding: 0 0 0 0;
+        padding: 0 1.1em 0 1.5em;
+    }
+
+    .second-paragraph-second-service {
+        padding: 0 0 0 1.5em;
     }
 
     .list-second-service {
-        padding: 0 0 0 2.5em;
+        padding: 0 1.5em 0 3.5em;
     }
 
     .btn-second-service {
-        margin: 0 0 7em 0;
+        margin: 0 0 2em 1.5em;
     }
 
      /* Services section */
     .calendar {
-        padding: 0 1em 7em 1em;
+        padding: 4em 1em 5em 1em;
     }
 
     /* Contact section */
     .form {
-        padding: 0 0 5em 0;
+        padding: 4em 0 5em 0;
     }
 }
 
