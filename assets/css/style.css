@@ -1,12 +1,13 @@
 body {
-    background-color: #FAF0E6;
-}
+    background-color: #FFFFFF;
+     }
+
 
 /* Home section */
 .home-image {
     background-image: url(../../images/banner.jpg);
-    background-color: #FAF0E6;
-    height: 40em;
+    background-color: #FFFFFF;
+    height: 30em;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,9 +35,8 @@ body {
     }
     
     .paragraph-about {
-        padding: 0 1.1em 1em 1.5em;
-        
-    }
+        padding: 0 1.1em 1em 1.5em;}
+
 
     /* Services section */
     .services {
